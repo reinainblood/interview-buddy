@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Buddy</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<h1>Interview Buddy - Audio Transcription and Response</h1>
+
+<div id="columns">
+    <div id="questions-column">
+        <h2>Questions</h2>
+        <ul id="questions-list"></ul>
+    </div>
+    <div id="answers-column">
+        <h2>Answers</h2>
+        <ul id="answers-list"></ul>
+    </div>
+</div>
+
+<!-- Buttons for starting and stopping the recording -->
+<button id="start">Start Recording</button>
+<button id="stop" disabled>Stop Recording</button>
+
+<script src="/static/handle_audio.js"></script>
+</body>
+</html>

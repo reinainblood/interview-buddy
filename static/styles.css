@@ -1,0 +1,25 @@
+#columns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#questions-column, #answers-column {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
